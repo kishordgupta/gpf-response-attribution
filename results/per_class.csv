@@ -1,0 +1,145 @@
+experiment_id,population,representation,target,split_strategy,label,precision,recall,f1,support
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,1.0,0.9965986394557823,0.9982964224872232,588
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,0.9830220713073005,0.9846938775510204,0.983857264231096,588
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,0.9846678023850085,0.9829931972789115,0.9838297872340426,588
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,0.993103448275862,0.9795918367346939,0.9863013698630136,588
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,0.9815126050420168,0.9931972789115646,0.9873203719357565,588
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,0.9982905982905983,0.9931972789115646,0.9957374254049446,588
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,0.98989898989899,1.0,0.9949238578680203,588
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,0.99830220713073,1.0,0.9991503823279524,588
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,0.9796954314720813,0.9846938775510204,0.9821882951653944,588
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,0.984641638225256,0.9812925170068028,0.9829642248722317,588
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,0.9683860232945092,0.9897959183673469,0.9789739276703112,588
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,0.9912739965095986,0.9659863945578231,0.9784668389319552,588
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,1.0,0.9991496598639455,0.9995746490854955,1176
+full__identity__word_svm__company,full,word_svm,company,identity,Google,1.0,0.9994331065759637,0.9997164729231641,1764
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,0.99830220713073,1.0,0.9991503823279524,1176
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,0.9982993197278912,0.9982993197278912,0.9982993197278912,1176
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,1.0,1.0,1.0,1176
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,1.0,1.0,1.0,588
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,0.9982935153583617,0.9948979591836735,0.9965928449744463,588
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,0.9475465313028765,0.9523809523809523,0.9499575911789653,588
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,0.955249569707401,0.9438775510204082,0.9495295124037639,588
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,0.9690189328743546,0.9574829931972789,0.9632164242942686,588
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,0.9595959595959596,0.9693877551020408,0.9644670050761421,588
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,0.9865319865319865,0.9965986394557823,0.9915397631133672,588
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,0.9898477157360406,0.9948979591836735,0.9923664122137404,588
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,0.99830220713073,1.0,0.9991503823279524,588
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,0.9674657534246576,0.9608843537414966,0.9641638225255973,588
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,0.9628378378378378,0.9693877551020408,0.9661016949152542,588
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,0.9563758389261745,0.9693877551020408,0.9628378378378378,588
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,0.9670710571923743,0.9489795918367347,0.9579399141630901,588
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,0.9991503823279524,1.0,0.9995750106247344,1176
+full__identity__char_svm__company,full,char_svm,company,identity,Google,0.9982993197278912,0.9982993197278912,0.9982993197278912,1764
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,0.9974511469838573,0.9982993197278912,0.9978750531236719,1176
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,0.9982964224872232,0.9965986394557823,0.9974468085106383,1176
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,1.0,0.9991496598639455,0.9995746490854955,1176
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,0.99830220713073,1.0,0.9991503823279524,588
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,0.7949579831932773,0.8044217687074829,0.7996618765849535,588
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,0.7227036395147314,0.7091836734693877,0.7158798283261802,588
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,0.6539130434782608,0.6394557823129252,0.646603611349957,588
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,0.7906976744186046,0.8095238095238095,0.8,588
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,0.8316666666666667,0.8486394557823129,0.8400673400673401,588
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,0.6672131147540984,0.6921768707482994,0.679465776293823,588
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,0.6712564543889845,0.6632653061224489,0.6672369546621043,588
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,0.817717206132879,0.8163265306122449,0.8170212765957446,588
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,0.8207236842105263,0.8486394557823129,0.8344481605351171,588
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,0.7095652173913043,0.6938775510204082,0.7016337059329321,588
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,0.7897526501766784,0.7602040816326531,0.7746967071057193,588
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,0.6103448275862069,0.6020408163265306,0.6061643835616438,588
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,0.8733850129198967,0.8622448979591837,0.8677792041078306,1176
+full__identity__style_logit__company,full,style_logit,company,identity,Google,0.7601092896174864,0.7885487528344671,0.7740678909293267,1764
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,0.8728813559322034,0.8758503401360545,0.8743633276740238,1176
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,0.7964757709251101,0.7687074829931972,0.7823453050627434,1176
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,0.8473597359735974,0.8732993197278912,0.8601340033500837,1176
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,0.8494423791821561,0.7772108843537415,0.8117229129662522,588
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,0.08333333333333333,1.0,0.15384615384615385,588
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,0.0,0.0,0.0,588
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,0.0,0.0,0.0,588
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,0.0,0.0,0.0,1176
+full__identity__dummy__company,full,dummy,company,identity,Google,0.25,1.0,0.4,1764
+full__identity__dummy__company,full,dummy,company,identity,Meta,0.0,0.0,0.0,1176
+full__identity__dummy__company,full,dummy,company,identity,Mistral,0.0,0.0,0.0,1176
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,0.0,0.0,0.0,1176
+full__identity__dummy__company,full,dummy,company,identity,xAI,0.0,0.0,0.0,588
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,0.9356984478935698,0.717687074829932,0.8123195380173244,588
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,0.45306513409961685,0.8044217687074829,0.5796568627450981,588
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,0.6004901960784313,0.4166666666666667,0.4919678714859438,588
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,0.8888888888888888,0.17687074829931973,0.2950354609929078,588
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,0.45023696682464454,0.9693877551020408,0.6148867313915858,588
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,0.8875502008032129,0.7517006802721088,0.8139963167587477,588
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,0.896551724137931,0.7517006802721088,0.8177613320999075,588
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,0.928030303030303,0.8333333333333334,0.8781362007168458,588
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,0.5386081982840801,0.9608843537414966,0.6902871105681124,588
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,0.9682539682539683,0.10374149659863946,0.18740399385560677,588
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,0.5852156057494866,0.9693877551020408,0.7298335467349552,588
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,0.9575757575757575,0.2687074829931973,0.4196547144754316,588
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,0.8670133729569094,0.9923469387755102,0.9254559873116575,1176
+full__article__char_svm__company,full,char_svm,company,article,Google,0.9044158747903857,0.9172335600907029,0.9107796228539262,1764
+full__article__char_svm__company,full,char_svm,company,article,Meta,0.9989969909729187,0.8469387755102041,0.9167050161067648,1176
+full__article__char_svm__company,full,char_svm,company,article,Mistral,0.9760850310008857,0.9370748299319728,0.956182212581345,1176
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,0.8783783783783784,0.9948979591836735,0.9330143540669856,1176
+full__article__char_svm__company,full,char_svm,company,article,xAI,0.9719222462203023,0.7653061224489796,0.8563273073263559,588
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,0.9782971619365609,0.9965986394557823,0.987363100252738,588
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,0.8730650154798761,0.9591836734693877,0.9141004862236629,588
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,0.9543726235741445,0.8537414965986394,0.9012567324955116,588
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,0.9073083778966132,0.8656462585034014,0.8859878154917319,588
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,0.8851913477537438,0.9047619047619048,0.894869638351556,588
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,0.9698492462311558,0.9846938775510204,0.9772151898734177,588
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,0.9880749574105622,0.9863945578231292,0.9872340425531915,588
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,0.9545454545454546,1.0,0.9767441860465116,588
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,0.9249146757679181,0.9217687074829932,0.9233390119250426,588
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,0.9325259515570934,0.9166666666666666,0.9245283018867925,588
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,0.9248251748251748,0.8996598639455783,0.9120689655172414,588
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,0.9131175468483816,0.9115646258503401,0.9123404255319149,588
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,0.9982832618025751,0.9889455782312925,0.9935924818453652,1176
+full__family__char_svm__company,full,char_svm,company,family,Google,0.9859708193041526,0.996031746031746,0.990975747320925,1764
+full__family__char_svm__company,full,char_svm,company,family,Meta,0.9957519116397621,0.9965986394557823,0.9961750956226094,1176
+full__family__char_svm__company,full,char_svm,company,family,Mistral,0.9965724078834619,0.9889455782312925,0.9927443448570209,1176
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,0.998289136013687,0.9923469387755102,0.9953091684434968,1176
+full__family__char_svm__company,full,char_svm,company,family,xAI,0.9865771812080537,1.0,0.9932432432432432,588
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,0.9982817869415808,0.9965694682675815,0.9974248927038627,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,0.9536878216123499,0.9536878216123499,0.9536878216123499,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,0.9568221070811744,0.9502572898799314,0.9535283993115319,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,0.9686956521739131,0.9554030874785592,0.9620034542314335,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,0.9576271186440678,0.9691252144082333,0.9633418584825234,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,0.989778534923339,0.9965694682675815,0.9931623931623932,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,0.989778534923339,0.9965694682675815,0.9931623931623932,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,0.9982876712328768,1.0,0.9991431019708654,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,0.9672413793103448,0.9622641509433962,0.9647463456577816,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,0.9641638225255973,0.9691252144082333,0.9666381522668948,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,0.9576988155668359,0.9708404802744426,0.9642248722316865,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,0.9685314685314685,0.9502572898799314,0.9593073593073593,583
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,0.9991431019708654,1.0,0.9995713673381912,1166
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,0.9982837528604119,0.9977129788450543,0.9979982842436375,1749
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,0.9974293059125964,0.9982847341337907,0.9978568366909558,1166
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,0.9982817869415808,0.9965694682675815,0.9974248927038627,1166
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,0.9991423670668954,0.9991423670668954,0.9991423670668954,1166
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,0.9982876712328768,1.0,0.9991431019708654,583
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,0.9703703703703703,0.6740994854202401,0.7955465587044535,583
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,0.429097605893186,0.7993138936535163,0.5584182144997004,583
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,0.6014851485148515,0.41680960548885077,0.49240121580547114,583
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,0.8928571428571429,0.17152658662092624,0.28776978417266186,583
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,0.4512,0.967409948542024,0.6153846153846154,583
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,0.8870636550308009,0.7409948542024014,0.8074766355140187,583
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,0.8955823293172691,0.7650085763293311,0.8251618871415356,583
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,0.9267822736030829,0.8250428816466552,0.8729582577132486,583
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,0.5333333333333333,0.9605488850771869,0.6858542559706062,583
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,0.9833333333333333,0.10120068610634649,0.18351477449455678,583
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,0.5780287474332649,0.9656946826758147,0.7231856133590238,583
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,0.9602649006622517,0.24871355060034306,0.39509536784741145,583
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,0.8693693693693694,0.9931389365351629,0.9271417133706965,1166
+screened__article__char_svm__company,screened,char_svm,company,article,Google,0.9112627986348123,0.9159519725557461,0.913601368691189,1749
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,0.9989909182643795,0.8490566037735849,0.9179415855354659,1166
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,0.976929902395741,0.9442538593481989,0.9603139991277801,1166
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,0.878122634367903,0.9948542024013722,0.9328508242862887,1166
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,0.9721627408993576,0.7787307032590052,0.8647619047619047,583

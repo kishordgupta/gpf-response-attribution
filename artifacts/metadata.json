@@ -1,0 +1,18 @@
+[
+  {
+    "file": "artifacts/model_char_full.joblib",
+    "target": "model",
+    "bytes": 3178598,
+    "sha256": "220acc842c49758d97dfe467fd05b9e41ce1a98726feede004ffd0d8d3901d2f",
+    "training_rows": 7056,
+    "evaluation_role": "Full-data demo only; evaluate using held-out result tables, not this fitted object."
+  },
+  {
+    "file": "artifacts/company_char_full.joblib",
+    "target": "company",
+    "bytes": 1799534,
+    "sha256": "cdf02dc4120c82a975c1426fa9d08a981f132164e50e3267a431ca366eb98e24",
+    "training_rows": 7056,
+    "evaluation_role": "Full-data demo only; evaluate using held-out result tables, not this fitted object."
+  }
+]

@@ -1,0 +1,2948 @@
+{
+  "status": "pass",
+  "checks_passed": 734,
+  "data_sha256": "c459043e9fb30eb653541d3a0ebaddb10735512025ed57190c0cb12966dd89da",
+  "split_folds_verified": 21,
+  "prediction_rows_verified": 112656,
+  "metric_rows_independently_recomputed": 88,
+  "maximum_absolute_metric_error": 4.440892098500626e-16,
+  "research_models_retrained": false,
+  "checks": [
+    {
+      "check": "Original dataset has the immutable expected checksum",
+      "passed": true
+    },
+    {
+      "check": "Canonical shape, class balance and developer mapping",
+      "passed": true
+    },
+    {
+      "check": "Production cleaning equals independent cleaning for every row",
+      "passed": true
+    },
+    {
+      "check": "Production duplicate hashes equal independently normalized hashes",
+      "passed": true
+    },
+    {
+      "check": "Independent normalized-text audit finds no duplicate rows",
+      "passed": true
+    },
+    {
+      "check": "Leading model-identifying UI labels do not survive cleaning",
+      "passed": true
+    },
+    {
+      "check": "Literal model/vendor masking changes no cleaned corpus row",
+      "passed": true
+    },
+    {
+      "check": "All 398 recorded leading wrappers are removed",
+      "passed": true
+    },
+    {
+      "check": "Training evidence reports completed frozen experiment",
+      "passed": true
+    },
+    {
+      "check": "Five-cell sensitivity matches independently audited cells",
+      "passed": true
+    },
+    {
+      "check": "Company imbalance and header audit are recorded accurately",
+      "passed": true
+    },
+    {
+      "check": "Split records use valid canonical row indices and roles",
+      "passed": true
+    },
+    {
+      "check": "Split records are unique within each fold",
+      "passed": true
+    },
+    {
+      "check": "Split cell_id values match the immutable CSV",
+      "passed": true
+    },
+    {
+      "check": "Split y_group_id values match the immutable CSV",
+      "passed": true
+    },
+    {
+      "check": "Split article_id values match the immutable CSV",
+      "passed": true
+    },
+    {
+      "check": "Split prompt_family values match the immutable CSV",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_1: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_1: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_1: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_1: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_2: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_2: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_2: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_2: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_3: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_3: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_3: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_3: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_4: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_4: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_4: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_4: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_5: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_5: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_5: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/identity/fold_5: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/article/bbc_brewdog: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/article/bbc_brewdog: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/article/bbc_brewdog: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/article/bbc_brewdog: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/article/reuters_denmark: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/article/reuters_denmark: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/article/reuters_denmark: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/article/reuters_denmark: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/bias_check: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/bias_check: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/bias_check: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/bias_check: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/community: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/community: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/community: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/community: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/emotion: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/emotion: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/emotion: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/emotion: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/impact: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/impact: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/impact: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/impact: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/policy_action: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/policy_action: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/policy_action: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/policy_action: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/significance: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/significance: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/significance: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/significance: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "full/family/worldview: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "full/family/worldview: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "full/family/worldview: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "full/family/worldview: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_1: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_1: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_1: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_1: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_2: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_2: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_2: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_2: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_3: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_3: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_3: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_3: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_4: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_4: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_4: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_4: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_5: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_5: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_5: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/identity/fold_5: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/article/bbc_brewdog: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/article/bbc_brewdog: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/article/bbc_brewdog: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/article/bbc_brewdog: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "screened/article/reuters_denmark: roles partition the correct population",
+      "passed": true
+    },
+    {
+      "check": "screened/article/reuters_denmark: no cell or held-out-group leakage",
+      "passed": true
+    },
+    {
+      "check": "screened/article/reuters_denmark: no normalized response overlap after purge",
+      "passed": true
+    },
+    {
+      "check": "screened/article/reuters_denmark: all target classes represented in training",
+      "passed": true
+    },
+    {
+      "check": "All 21 planned held-out folds are present",
+      "passed": true
+    },
+    {
+      "check": "full/article: every eligible row is tested exactly once",
+      "passed": true
+    },
+    {
+      "check": "full/family: every eligible row is tested exactly once",
+      "passed": true
+    },
+    {
+      "check": "full/identity: every eligible row is tested exactly once",
+      "passed": true
+    },
+    {
+      "check": "screened/article: every eligible row is tested exactly once",
+      "passed": true
+    },
+    {
+      "check": "screened/identity: every eligible row is tested exactly once",
+      "passed": true
+    },
+    {
+      "check": "Prediction outputs are complete and response-text-free",
+      "passed": true
+    },
+    {
+      "check": "No row is predicted twice in an experiment",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__word_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__char_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__style_logit__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__identity__dummy__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/bbc_brewdog: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/reuters_denmark: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/bbc_brewdog: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/reuters_denmark: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__article__char_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/bias_check: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/community: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/emotion: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/impact: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/policy_action: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/significance: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/worldview: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/bias_check: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/community: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/emotion: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/impact: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/policy_action: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/significance: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/worldview: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "full__family__char_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_1: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_2: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_3: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_4: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/fold_5: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "screened__identity__char_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/bbc_brewdog: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/reuters_denmark: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__model: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: unambiguous experiment identifiers",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: experiment label matches its design",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: truth and identifiers match canonical observations",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: saved correctness and closed-set labels are valid",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: pooled test coverage is exact",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/bbc_brewdog: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: predictions come only from that held-out fold",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: training count agrees with manifest",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/reuters_denmark: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/pooled: one matching metric row and sample count",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/pooled: independently recomputed accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/pooled: independently recomputed macro_f1",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company/pooled: independently recomputed balanced_accuracy",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: per-class metrics and supports agree",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: every confusion-matrix count agrees",
+      "passed": true
+    },
+    {
+      "check": "screened__article__char_svm__company: finite descending top-three margins and distinct labels",
+      "passed": true
+    },
+    {
+      "check": "Exact fixed experiment plan, metric and class-table coverage",
+      "passed": true
+    },
+    {
+      "check": "Source CSV is unchanged after all validation",
+      "passed": true
+    },
+    {
+      "check": "Standalone dashboard exists",
+      "passed": true
+    }
+  ]
+}

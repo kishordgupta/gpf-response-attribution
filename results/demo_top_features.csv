@@ -1,0 +1,361 @@
+target,label,rank,feature,coefficient,fit_population,interpretation
+company,Anthropic,1,'t ,1.1086178070056731,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,2,n't,1.1086178070056731,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,3,n't ,1.1086178070056731,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,4,s: ,0.8968581416050337,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,5,'s ,0.8757498955236975,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,6,sn',0.7968349043354723,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,7,sn't,0.7968349043354723,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,8,sn't ,0.7968349043354723,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,9,esn',0.7360326579649421,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,10,esn't,0.7360326579649421,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,11,oesn',0.7360326579649421,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,12,tains,0.7281465886827555,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,13,fecti,0.7278396216058832,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,14,ins ,0.7081404122877051,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,15,ains ,0.702665732306226,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,16,e: ,0.702120249300878,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,17,tor ,0.6989950528893565,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,18,itor ,0.6818978386995498,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,19, affe,0.6703827826368421,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Anthropic,20, aff,0.6616861357142103,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,1, an ,1.5102724417420819,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,2,"cle,",1.1029276559609973,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,3,"cle, ",1.1029276559609973,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,4,"icle,",1.0967979321521149,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,5, base,1.0931815825955735,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,6, tex,1.0870749049448918,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,7, text,1.0870749049448918,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,8, bas,1.0776642878355205,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,9,text ,0.9919110068785315,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,10,ext ,0.9902590127363917,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,11,xt ,0.9902590127363917,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,12,tex,0.9658140773522249,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,13,text,0.9658140773522249,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,14,"le,",0.8976894158200972,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,15,"le, ",0.8976894158200972,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,16,ext,0.8901810847096484,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,17,vided,0.8523021093045525,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,18,based,0.849126545647765,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,19,ided,0.8350621721793897,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Google,20,base,0.8336175593521945,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,1, may,1.0665810459036615,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,2,may,1.0574275673575275,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,3, may ,1.0561586991901843,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,4,'s ,1.0518438978427085,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,5,may ,1.0476661686143813,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,6,ay ,0.7897008487953595,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,7, its ,0.7178486690758257,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,8, of ,0.6792468900333493,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,9,of ,0.679148359632237,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,10,its ,0.6784505293300317,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,11,as ,0.6747784052984585,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,12, as ,0.672884775235134,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,13, th,0.5806086168979566,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,14, rela,0.5799080666690445,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,15, of,0.5778643251748953,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,16, the,0.5671506775338486,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,17, its,0.5668963681597498,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,18,ecen,0.566522525176093,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,19,ecent,0.566522525176093,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Meta,20,recen,0.566522525176093,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,1,’s ,1.9613555215001945,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,2,k’s ,1.319157001276164,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,3,k’s,1.3186760133364075,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,4,rk’s ,1.3008058878360722,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,5,ark’,1.3003205351060816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,6,ark’s,1.3003205351060816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,7,mark’,1.3003205351060816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,8,rk’,1.3003205351060816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,9,rk’s,1.3003205351060816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,10,s) ,1.0648692230006844,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,11, (e,0.9796300628208432,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,12, (e.,0.9113986803805492,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,13, (e.g,0.9113986803805492,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,14,(e.,0.9113986803805492,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,15,(e.g,0.9113986803805492,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,16,(e.g.,0.9113986803805492,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,17,"., ",0.9015958116936815,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,18,.g.,0.8989310472371942,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,19,".g.,",0.8989310472371942,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,Mistral,20,".g., ",0.8989310472371942,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,1,so ,0.8820019695513133,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,2, nea,0.8122978200296513,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,3, near,0.8122978200296513,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,4,near,0.8075835708593162,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,5,near ,0.8068877545592872,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,6, so ,0.7527110124775972,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,7, is ,0.7356075114590456,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,8,nea,0.7327876633085355,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,9,but ,0.6702969641890841,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,10, but,0.6700180364442374,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,11, but ,0.6700180364442374,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,12, say,0.6661249672905678,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,13, it ,0.6626253852562507,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,14, if ,0.6588298894248146,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,15, says,0.6571617136749522,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,16, if,0.657007384704789,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,17,prove,0.6563526062272929,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,18,rove,0.6537802754881974,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,19, is,0.6431226799122575,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,OpenAI,20,but,0.6364202951048921,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,1, frig,0.5520361156918004,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,2,frig,0.5520361156918004,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,3,friga,0.5429131212171773,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,4,riga,0.5429131212171773,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,5,rigat,0.5429131212171773,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,6,igate,0.5418331655997073,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,7,gate,0.540872190039398,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,8, vat,0.5389793075055079,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,9,gate ,0.5236887926597573,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,10,iga,0.5221886572726986,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,11,igat,0.5221886572726986,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,12,those,0.5221743695296637,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,13, thos,0.5165700509308043,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,14,ose,0.5161681451359855,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,15,thos,0.5149817034716764,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,16,hose ,0.49790090736377185,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,17,hose,0.4946722737316749,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,18, fri,0.48710148212188314,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,19,gat,0.48699501528910666,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+company,xAI,20,fri,0.4784635909244176,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,1, tex,0.9311902862670093,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,2, text,0.9311902862670093,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,3,s: ,0.8441669634268792,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,4,tex,0.783110259306473,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,5,text,0.783110259306473,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,6,ions:,0.7428785973992871,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,7,ons:,0.7419731141085657,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,8,ons: ,0.7419731141085657,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,9,ext,0.7173082017846857,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,10,text ,0.7142394214765464,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,11,ext ,0.7130095770825271,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,12,xt ,0.7130095770825271,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,13,ns:,0.6906702775364187,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,14,ns: ,0.6906702775364187,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,15,s? ,0.6554486090034476,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,16,local,0.6250953687602367,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,17,ided ,0.6247826422071506,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,18,ocal,0.5992919217729268,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,19,ardi,0.5888892138583007,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,3.5 Flash-Lite,20,tain ,0.582827536369519,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,1,itor ,0.8198723942733601,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,2,fecti,0.7560559312444409,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,3,rown ,0.7522582860851381,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,4,ectin,0.7519071541986893,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,5,s: ,0.7462527550757521,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,6,le's ,0.741657417470471,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,7,le',0.7412895325436188,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,8,le's,0.7412895325436188,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,9,'s ,0.7321228201951485,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,10,cle',0.7263157688947165,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,11,cle's,0.7263157688947165,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,12,icle',0.7263157688947165,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,13,ctin,0.7069931325915709,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,14,cting,0.7069931325915709,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,15,rated,0.6822734204296925,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,16,cum,0.6758704350378365,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,17, doc,0.6594083394739995,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,18,doc,0.6579844317079755,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,19,nt—,0.6575284339902742,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Haiku 4.5,20,conta,0.6495992300334913,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,1, $276,1.0426223762830764,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,2, $2,1.0420684530889603,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,3, $27,1.0420684530889603,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,4,ense ,0.9464269645602909,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,5,e: ,0.8382898857714083,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,6,'t ,0.8250790142914418,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,7,n't,0.8250790142914418,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,8,n't ,0.8250790142914418,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,9, in ,0.7890938654903583,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,10,0m ,0.758833337582036,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,11,porti,0.7243424286170526,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,12,orti,0.7238283012644939,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,13,ness ,0.721479693039577,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,14,440,0.7147707921661627,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,15,$276 ,0.7095225824977885,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,16,$276,0.7081063904501494,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,17,$27,0.7078040212525335,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,18,40 ,0.6900427370789989,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,19,440 ,0.6900427370789989,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Claude Sonnet 4.5,20,pea,0.6647650777488453,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,1,fact:,1.1658454564710048,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,2,putes,1.0315159783245984,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,3,act:,1.0215480748267565,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,4,act: ,1.0215480748267565,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,5,utes ,0.98729762634481,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,6, per ,0.9339539351116088,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,7,utes,0.9275000039534586,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,8,per ,0.8398726447798397,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,9,ute,0.8096889591288751,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,10,rown ,0.8072827432997499,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,11,nses.,0.7833371272246045,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,12, more,0.7544135262402949,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,13,pute,0.7437553143495941,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,14,spute,0.7437553143495941,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,15,dispu,0.7430283374396264,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,16,ispu,0.7430283374396264,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,17,isput,0.7430283374396264,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,18,sput,0.7430283374396264,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,19,cused,0.7417786394777223,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4,20,spu,0.7408660606765115,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,1,nly ,1.225963467770902,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,2,nly,1.2090564940499955,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,3, only,0.9335051160594702,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,4, onl,0.9331021927472819,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,5,only ,0.907664909442168,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,6, mai,0.874067492513231,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,7, main,0.874067492513231,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,8,only,0.8712163935951067,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,9,onl,0.870857633930281,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,10, that,0.8349261849729672,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,11, show,0.8332169770913664,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,12,that ,0.8321706121340773,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,13,show,0.8273944056915481,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,14,that,0.825000780515627,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,15,peedi,0.809850802237067,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,16,rect:,0.8071968924200716,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,17, is ,0.8038941098378775,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,18,ect:,0.7660421734924809,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,19,ect: ,0.7660421734924809,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,GPT 5.4 Mini,20, it ,0.7659114678185912,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,1, deta,0.9735371590421495,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,2,deta,0.9718496392394922,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,3,detai,0.9680125951522418,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,4,withi,0.9458812296461884,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,5,hin ,0.9439012746315878,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,6,thin ,0.9439012746315878,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,7,ithi,0.9347207017823047,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,8,ithin,0.9347207017823047,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,9, an ,0.8581376514240152,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,10,ails ,0.795262366533776,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,11,ils ,0.7553597946121484,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,12,","" ",0.7158800506947055,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,13,for ,0.7065537950312288,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,14, for ,0.6992415141005589,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,15,etail,0.6921421877258147,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,16,tail,0.6897612932909217,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,17,etai,0.6870445278935866,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,18, pert,0.6863761747215084,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,19,"nses,",0.6863735092190258,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Flash,20, sole,0.6825296413405882,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,1, base,1.3056033424230336,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,2, bas,1.2659593857304652,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,3,based,1.1795253392635028,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,4,base,1.1731614302062572,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,5,bas,1.1387423478984033,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,6,ased ,1.0785917026041922,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,7,ased,1.0615100685210728,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,8, is ,1.044103210855388,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,9,"cle,",1.026500567814735,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,10,"cle, ",1.026500567814735,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,11,ase,1.0173830471732346,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,12,"icle,",1.0102044204215124,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,13,tuall,1.005984562358414,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,14,uall,0.9816726164728452,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,15,ually,0.9816726164728452,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,16, is,0.9701977335568477,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,17,factu,0.9289954830791041,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,18, tex,0.8893542209248051,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,19, text,0.8893542209248051,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Gemini 2.5 Pro,20,text ,0.8830502813142703,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,1, frig,0.5520358211825029,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,2,frig,0.5520358211825029,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,3,friga,0.5429130737163751,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,4,riga,0.5429130737163751,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,5,rigat,0.5429130737163751,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,6,igate,0.5418331772191569,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,7,gate,0.5408722016382386,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,8, vat,0.5389789411353975,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,9,gate ,0.5236889099695092,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,10,iga,0.5221883473294499,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,11,igat,0.5221883473294499,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,12,those,0.5221752761847857,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,13, thos,0.5165709080816498,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,14,ose,0.5161662775255593,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,15,thos,0.5149825491046849,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,16,hose ,0.4979005902781759,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,17,hose,0.4946717319659632,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,18, fri,0.4871011002509956,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,19,gat,0.48699503432693275,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Grok Fast,20,fri,0.4784636452158352,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,1, may ,0.8865228265996365,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,2,may ,0.877164412320554,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,3, may,0.8733298210502087,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,4,may,0.8597135780609418,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,5,elati,0.8534507671043833,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,6, of ,0.7535468146873029,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,7,of ,0.7534375064651847,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,8,this ,0.7280866299615819,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,9,his ,0.7239335925965258,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,10,ay ,0.720294403436969,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,11, thi,0.7150552108983226,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,12, this,0.7071540343204543,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,13,this,0.7044132765529404,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,14,his,0.7033992457082356,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,15, of,0.6531966407491744,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,16,thi,0.6120586726347224,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,17, th,0.6119158047546308,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,18,ions ,0.6106910394929064,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,19,ons ,0.5961906249083928,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama 3.3 Turbo,20,latio,0.5890972699980302,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,1,elate,1.1690469547886655,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,2,late,1.1033929462668237,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,3,ude ,1.0235403335102997,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,4,onati,1.0206082407520518,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,5, dona,1.0063209479282573,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,6,dona,1.0063209479282573,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,7,donat,1.0063209479282573,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,8,lude ,0.9777271004082799,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,9,plies,0.9350655479007499,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,10,used ,0.9194569907238767,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,11,used,0.916653178820478,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,12, is ,0.9150910582400855,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,13,lated,0.9075641574558982,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,14,mplie,0.8950368972163432,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,15,acts ,0.8948891110937932,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,16,cused,0.8848590845029655,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,17, don,0.8789743962827612,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,18,'s ,0.8633901722005606,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,19,de ,0.8599374897796195,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Meta Llama Maverick 4,20,don,0.8529039710324201,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,1,’s ,1.4347677472755114,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,2, – ,1.2451023514040203,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,3,): ,0.9966351916580376,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,4,e’s,0.9356205408705389,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,5,e’s ,0.9356205408705389,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,6,). ,0.8773868307792673,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,7, way,0.823752389353453,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,8,way,0.7760752767703221,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,9,ways,0.7721828894373258,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,10, ways,0.7602142782786097,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,11,k’s,0.7497285399622808,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,12,k’s ,0.7398640467922146,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,13,og’s ,0.6807237193833484,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,14,n’t,0.6793593438577638,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,15,n’t ,0.6793593438577638,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,16,’t ,0.6793593438577638,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,17,le),0.6783363363412388,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,18,g’s ,0.6763096890550743,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,19,dog’,0.675773498405708,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Large 3,20,dog’s,0.675773498405708,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,1,s) ,1.0497092303080593,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,2,’s ,0.9360687800778772,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,3," no,",0.8460960077328924,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,4," no, ",0.8460960077328924,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,5,"no,",0.844663553918816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,6,"no, ",0.844663553918816,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,7,tual ,0.8230526807546589,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,8,rk’s ,0.813777405626489,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,9,ark’,0.8070653275225863,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,10,ark’s,0.8070653275225863,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,11,mark’,0.8070653275225863,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,12,rk’,0.8070653275225863,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,13,rk’s,0.8070653275225863,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,14,"ages,",0.7948106894099561,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,15,k’s ,0.7449167808561902,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,16,k’s,0.7383072297028148,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,17,"ges,",0.7241752560660104,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,18,"ges, ",0.7241752560660104,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,19,"hus,",0.7061365917818813,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation
+model,Mistral Medium 3,20,"hus, ",0.7061365917818813,all 7056 responses; demonstration artifact,Descriptive fitted character-ngram weight; not a causal explanation

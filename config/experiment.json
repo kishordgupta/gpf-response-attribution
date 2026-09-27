@@ -1,0 +1,19 @@
+{
+  "seed": 20260927,
+  "targets": ["model", "company"],
+  "feature_source": "response only, after fixed UI-header and whitespace cleaning",
+  "identity_folds": 5,
+  "identity_group": "y_group_id",
+  "primary": {"population": "full", "split_strategy": "identity", "representations": ["word_svm", "char_svm", "style_logit", "dummy"]},
+  "generalization": [{"population": "full", "split_strategy": "article", "representations": ["char_svm"]}, {"population": "full", "split_strategy": "family", "representations": ["char_svm"]}],
+  "screening": [{"population": "screened", "split_strategy": "identity", "representations": ["char_svm"]}, {"population": "screened", "split_strategy": "article", "representations": ["char_svm"]}],
+  "word_tfidf": {"ngram_range": [1,2], "min_df": 2, "max_features": 40000, "sublinear_tf": true, "strip_accents": "unicode"},
+  "char_tfidf": {"analyzer": "char_wb", "ngram_range": [3,5], "min_df": 3, "max_features": 60000, "sublinear_tf": true, "strip_accents": "unicode"},
+  "linear_svc": {"C": 1.0, "dual": "auto", "tol": 0.0001, "max_iter": 5000},
+  "style_logistic": {"C": 1.0, "solver": "lbfgs", "max_iter": 3000, "scaler": "StandardScaler fitted on train only"},
+  "dummy": {"strategy": "most_frequent"},
+  "hyperparameter_selection": "fixed before seeing test metrics; no test tuning",
+  "duplicate_policy": "remove a training row if its NFKC/casefold/whitespace-normalized cleaned response also occurs in test",
+  "masking": "literal model and vendor terms; skip redundant retraining if zero response texts change",
+  "parallel_workers": 2
+}

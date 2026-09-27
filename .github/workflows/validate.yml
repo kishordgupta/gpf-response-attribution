@@ -1,0 +1,27 @@
+name: Validate response-attribution release
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned lightweight numerical dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Download immutable source dataset and verify its checksum
+        run: python scripts/download_data.py --output data/responses.csv
+      - name: Run cleaning, split-leakage and tiny inference regression checks
+        run: python -m unittest discover -s tests -v
+      - name: Independently verify held-out predictions and recompute reported metrics
+        run: python scripts/validate_release.py --require-dashboard

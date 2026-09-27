@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+data/responses.csv
+data/responses.csv.gz
+artifacts/*.joblib
+*.log
+MANIFEST.local.json
+

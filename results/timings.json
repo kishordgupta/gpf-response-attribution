@@ -1,0 +1,290 @@
+[
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_1",
+    "representation": "word_svm",
+    "seconds": 1.051,
+    "n_features": 40000
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_1",
+    "representation": "char_svm",
+    "seconds": 4.727,
+    "n_features": 36929
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_1",
+    "representation": "style_logit",
+    "seconds": 0.831,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_1",
+    "representation": "dummy",
+    "seconds": 0.79,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_2",
+    "representation": "word_svm",
+    "seconds": 1.082,
+    "n_features": 40000
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_2",
+    "representation": "char_svm",
+    "seconds": 4.64,
+    "n_features": 36973
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_2",
+    "representation": "style_logit",
+    "seconds": 0.836,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_2",
+    "representation": "dummy",
+    "seconds": 0.791,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_3",
+    "representation": "word_svm",
+    "seconds": 1.082,
+    "n_features": 40000
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_3",
+    "representation": "char_svm",
+    "seconds": 4.693,
+    "n_features": 36966
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_3",
+    "representation": "style_logit",
+    "seconds": 0.83,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_3",
+    "representation": "dummy",
+    "seconds": 0.786,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_4",
+    "representation": "word_svm",
+    "seconds": 1.089,
+    "n_features": 40000
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_4",
+    "representation": "char_svm",
+    "seconds": 4.76,
+    "n_features": 37420
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_4",
+    "representation": "style_logit",
+    "seconds": 0.84,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_4",
+    "representation": "dummy",
+    "seconds": 0.785,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_5",
+    "representation": "word_svm",
+    "seconds": 1.089,
+    "n_features": 40000
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_5",
+    "representation": "char_svm",
+    "seconds": 4.767,
+    "n_features": 36943
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_5",
+    "representation": "style_logit",
+    "seconds": 0.867,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "identity",
+    "fold": "fold_5",
+    "representation": "dummy",
+    "seconds": 0.79,
+    "n_features": 18
+  },
+  {
+    "population": "full",
+    "split_strategy": "article",
+    "fold": "bbc_brewdog",
+    "representation": "char_svm",
+    "seconds": 4.356,
+    "n_features": 27807
+  },
+  {
+    "population": "full",
+    "split_strategy": "article",
+    "fold": "reuters_denmark",
+    "representation": "char_svm",
+    "seconds": 4.421,
+    "n_features": 29992
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "bias_check",
+    "representation": "char_svm",
+    "seconds": 4.836,
+    "n_features": 38298
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "community",
+    "representation": "char_svm",
+    "seconds": 4.918,
+    "n_features": 38559
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "emotion",
+    "representation": "char_svm",
+    "seconds": 4.859,
+    "n_features": 37801
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "impact",
+    "representation": "char_svm",
+    "seconds": 4.864,
+    "n_features": 38214
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "policy_action",
+    "representation": "char_svm",
+    "seconds": 4.838,
+    "n_features": 38502
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "significance",
+    "representation": "char_svm",
+    "seconds": 4.899,
+    "n_features": 37466
+  },
+  {
+    "population": "full",
+    "split_strategy": "family",
+    "fold": "worldview",
+    "representation": "char_svm",
+    "seconds": 4.824,
+    "n_features": 36317
+  },
+  {
+    "population": "screened",
+    "split_strategy": "identity",
+    "fold": "fold_1",
+    "representation": "char_svm",
+    "seconds": 4.782,
+    "n_features": 36830
+  },
+  {
+    "population": "screened",
+    "split_strategy": "identity",
+    "fold": "fold_2",
+    "representation": "char_svm",
+    "seconds": 4.767,
+    "n_features": 36833
+  },
+  {
+    "population": "screened",
+    "split_strategy": "identity",
+    "fold": "fold_3",
+    "representation": "char_svm",
+    "seconds": 4.81,
+    "n_features": 36870
+  },
+  {
+    "population": "screened",
+    "split_strategy": "identity",
+    "fold": "fold_4",
+    "representation": "char_svm",
+    "seconds": 4.812,
+    "n_features": 37288
+  },
+  {
+    "population": "screened",
+    "split_strategy": "identity",
+    "fold": "fold_5",
+    "representation": "char_svm",
+    "seconds": 4.991,
+    "n_features": 36794
+  },
+  {
+    "population": "screened",
+    "split_strategy": "article",
+    "fold": "bbc_brewdog",
+    "representation": "char_svm",
+    "seconds": 4.376,
+    "n_features": 27722
+  },
+  {
+    "population": "screened",
+    "split_strategy": "article",
+    "fold": "reuters_denmark",
+    "representation": "char_svm",
+    "seconds": 4.432,
+    "n_features": 29894
+  }
+]

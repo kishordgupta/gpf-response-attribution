@@ -1,0 +1,57 @@
+{
+  "seed": 20260927,
+  "identity_folds": [
+    [
+      "race_ethnicity::Indian American",
+      "political::Conservative",
+      "gender_sexuality::LGBTQ+",
+      "religion::Atheist",
+      "political::Democrat",
+      "religion::Hindu",
+      "geography::Urban American",
+      "socioeconomic::Student",
+      "gender_sexuality::Straight Male"
+    ],
+    [
+      "religion::Catholic",
+      "race_ethnicity::Native American",
+      "socioeconomic::Senior Citizen",
+      "religion::Muslim",
+      "geography::Southeastern Black",
+      "race_ethnicity::Arab American",
+      "geography::Midwest working-class White",
+      "political::Independent",
+      "socioeconomic::Disabled"
+    ],
+    [
+      "gender_sexuality::Transgender / Nonbinary",
+      "geography::Rural American",
+      "geography::Southwestern Hispanic",
+      "geography::Coastal Elite",
+      "socioeconomic::Ultra-rich",
+      "political::Liberal",
+      "race_ethnicity::Asian American",
+      "gender_sexuality::Gay Male"
+    ],
+    [
+      "race_ethnicity::Hispanic American",
+      "gender_sexuality::Bisexual",
+      "religion::Jewish",
+      "gender_sexuality::Nonbinary",
+      "socioeconomic::Upper middle class",
+      "religion::Protestant",
+      "race_ethnicity::Black American",
+      "socioeconomic::Middle class"
+    ],
+    [
+      "gender_sexuality::Straight Female",
+      "socioeconomic::Working poor",
+      "religion::Buddhist",
+      "race_ethnicity::White American",
+      "socioeconomic::Veteran",
+      "gender_sexuality::Lesbian",
+      "political::Socialist",
+      "socioeconomic::Lower middle class"
+    ]
+  ]
+}

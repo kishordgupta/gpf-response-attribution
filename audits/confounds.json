@@ -1,0 +1,167 @@
+{
+  "dataset_sha256": "c459043e9fb30eb653541d3a0ebaddb10735512025ed57190c0cb12966dd89da",
+  "rows": 7056,
+  "columns": 28,
+  "model_counts": {
+    "GPT 5.4": 588,
+    "GPT 5.4 Mini": 588,
+    "Claude Sonnet 4.5": 588,
+    "Claude Haiku 4.5": 588,
+    "Meta Llama 3.3 Turbo": 588,
+    "Meta Llama Maverick 4": 588,
+    "Gemini 2.5 Flash": 588,
+    "Gemini 2.5 Pro": 588,
+    "Mistral Large 3": 588,
+    "Mistral Medium 3": 588,
+    "Grok Fast": 588,
+    "3.5 Flash-Lite": 588
+  },
+  "company_counts": {
+    "OpenAI": 1176,
+    "Anthropic": 1176,
+    "Meta": 1176,
+    "Google": 1764,
+    "Mistral": 1176,
+    "xAI": 588
+  },
+  "company_mapping": {
+    "GPT 5.4": "OpenAI",
+    "GPT 5.4 Mini": "OpenAI",
+    "Claude Sonnet 4.5": "Anthropic",
+    "Claude Haiku 4.5": "Anthropic",
+    "Meta Llama 3.3 Turbo": "Meta",
+    "Meta Llama Maverick 4": "Meta",
+    "Gemini 2.5 Flash": "Google",
+    "Gemini 2.5 Pro": "Google",
+    "Mistral Large 3": "Mistral",
+    "Mistral Medium 3": "Mistral",
+    "Grok Fast": "xAI",
+    "3.5 Flash-Lite": "Google"
+  },
+  "recorded_provider_by_model": {
+    "GPT 5.4": [
+      "openai"
+    ],
+    "GPT 5.4 Mini": [
+      "openai"
+    ],
+    "Claude Sonnet 4.5": [
+      "anthropic"
+    ],
+    "Claude Haiku 4.5": [
+      "anthropic"
+    ],
+    "Meta Llama 3.3 Turbo": [
+      "together_ai"
+    ],
+    "Meta Llama Maverick 4": [
+      "openrouter"
+    ],
+    "Gemini 2.5 Flash": [
+      "gemini"
+    ],
+    "Gemini 2.5 Pro": [
+      "gemini"
+    ],
+    "Mistral Large 3": [
+      "mistral"
+    ],
+    "Mistral Medium 3": [
+      "mistral"
+    ],
+    "Grok Fast": [
+      "grok.com"
+    ],
+    "3.5 Flash-Lite": [
+      "Google"
+    ]
+  },
+  "leading_ui_header": {
+    "total": 386,
+    "model_counts": {
+      "3.5 Flash-Lite": 386
+    },
+    "fraction_of_gemini_web_class": 0.6564625850340136
+  },
+  "generic_response_wrapper": {
+    "total": 12,
+    "model_counts": {
+      "Claude Sonnet 4.5": 12
+    }
+  },
+  "all_leading_wrapper_changed_rows": 398,
+  "explicit_name_scan": {
+    "pattern": "\\b(?:openai|chatgpt|gpt[ -]?\\d|anthropic|claude|google|gemini|grok|xai|mistral|llama|meta)\\b",
+    "raw_rows": 386,
+    "cleaned_rows": 0,
+    "cleaned_row_indices": [],
+    "interpretation": "A token match is a heuristic, not proof of self-identification. Raw matches overlap the model-identifying UI header."
+  },
+  "duplicates": {
+    "raw_exact_groups": [],
+    "cleaned_casefolded_groups": []
+  },
+  "lexical_near_duplicate_audit": {
+    "representation": "lowercase word unigram/bigram TF-IDF, min_df=2, sublinear_tf=True, all eligible features, cosine similarity",
+    "eligible_features": 61935,
+    "unordered_pairs_checked": 24890040,
+    "pair_counts_at_or_above_similarity": {
+      "0.8": 8,
+      "0.9": 1,
+      "0.95": 0,
+      "0.97": 0
+    },
+    "highest_pair": {
+      "row_a": 2677,
+      "row_b": 2922,
+      "cosine_similarity": 0.9052151893853977,
+      "model_a": "Meta Llama 3.3 Turbo",
+      "model_b": "Meta Llama 3.3 Turbo",
+      "cell_a": "reuters_denmark__political__02__significance",
+      "cell_b": "reuters_denmark__socioeconomic__07__significance"
+    },
+    "candidate_threshold": 0.95,
+    "candidates": [],
+    "interpretation": "High lexical similarity is a review candidate, not proof of copied or miscaptured responses. Absence at this threshold does not prove statistical independence."
+  },
+  "known_target_inconsistencies": {
+    "affected_model": "3.5 Flash-Lite",
+    "cells": [
+      "bbc_brewdog__gender_sexuality__07__significance",
+      "bbc_brewdog__geography__05__community",
+      "bbc_brewdog__political__00__bias_check",
+      "reuters_denmark__gender_sexuality__00__emotion",
+      "reuters_denmark__religion__06__worldview"
+    ],
+    "row_indices": [
+      6469,
+      6657,
+      6658,
+      6659,
+      6660
+    ],
+    "conservative_complete_cell_screen": {
+      "cells": 583,
+      "rows": 6996
+    },
+    "interpretation": "Retain canonical data; report a sensitivity removing these five cells across all models. Cause is unresolved, not a proven model-defect label."
+  },
+  "run_id_reuse": {
+    "unique": 6468,
+    "values_used_twice": 588,
+    "observation_key": [
+      "model_name",
+      "cell_id"
+    ]
+  },
+  "limitations": [
+    "Leading UI headers directly expose a model class and must be removed before both fitting and inference.",
+    "After header cleaning, formatting, length, refusal style, and collection-interface behavior may still identify a captured product stream; attribution is not proof of model architecture or training lineage.",
+    "Use response text only. Model/provider IDs, run/cell IDs, timestamps, source metadata, and collection-stage columns are forbidden input features.",
+    "All fourteen article/family cells and all twelve models for an identity should stay in the same primary split. A row-random split is not an independent prompt-generalization evaluation.",
+    "Exact duplicate hashes must not cross a fitted model's train/test boundary. Near-duplicate screening is descriptive and threshold dependent.",
+    "Model classes are balanced; company classes are not. Google is 25 percent and xAI 8.33 percent of the corpus. Report macro-F1 and balanced accuracy alongside accuracy and a dummy baseline.",
+    "Two articles only; article/source/topic are confounded. Article holdout measures a shift between these two conditions, not broad news-domain generalization.",
+    "Labels are recorded UI/router aliases, not authenticated backend checkpoints. Inference is closed-set among the supplied labels and cannot establish the origin of arbitrary text."
+  ]
+}

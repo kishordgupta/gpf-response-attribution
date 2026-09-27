@@ -1,0 +1,490 @@
+{
+  "completed_utc": "2026-09-27T20:07:46.908485+00:00",
+  "data_sha256": "c459043e9fb30eb653541d3a0ebaddb10735512025ed57190c0cb12966dd89da",
+  "rows": 7056,
+  "canonical_columns": 28,
+  "models": [
+    "GPT 5.4",
+    "GPT 5.4 Mini",
+    "Claude Sonnet 4.5",
+    "Claude Haiku 4.5",
+    "Meta Llama 3.3 Turbo",
+    "Meta Llama Maverick 4",
+    "Gemini 2.5 Flash",
+    "Gemini 2.5 Pro",
+    "Mistral Large 3",
+    "Mistral Medium 3",
+    "Grok Fast",
+    "3.5 Flash-Lite"
+  ],
+  "companies": {
+    "GPT 5.4": "OpenAI",
+    "GPT 5.4 Mini": "OpenAI",
+    "Claude Sonnet 4.5": "Anthropic",
+    "Claude Haiku 4.5": "Anthropic",
+    "Meta Llama 3.3 Turbo": "Meta",
+    "Meta Llama Maverick 4": "Meta",
+    "Gemini 2.5 Flash": "Google",
+    "Gemini 2.5 Pro": "Google",
+    "Mistral Large 3": "Mistral",
+    "Mistral Medium 3": "Mistral",
+    "Grok Fast": "xAI",
+    "3.5 Flash-Lite": "Google"
+  },
+  "n_models": 12,
+  "n_companies": 6,
+  "target_company_counts": {
+    "Google": 1764,
+    "OpenAI": 1176,
+    "Anthropic": 1176,
+    "Meta": 1176,
+    "Mistral": 1176,
+    "xAI": 588
+  },
+  "config": {
+    "seed": 20260927,
+    "targets": [
+      "model",
+      "company"
+    ],
+    "feature_source": "response only, after fixed UI-header and whitespace cleaning",
+    "identity_folds": 5,
+    "identity_group": "y_group_id",
+    "primary": {
+      "population": "full",
+      "split_strategy": "identity",
+      "representations": [
+        "word_svm",
+        "char_svm",
+        "style_logit",
+        "dummy"
+      ]
+    },
+    "generalization": [
+      {
+        "population": "full",
+        "split_strategy": "article",
+        "representations": [
+          "char_svm"
+        ]
+      },
+      {
+        "population": "full",
+        "split_strategy": "family",
+        "representations": [
+          "char_svm"
+        ]
+      }
+    ],
+    "screening": [
+      {
+        "population": "screened",
+        "split_strategy": "identity",
+        "representations": [
+          "char_svm"
+        ]
+      },
+      {
+        "population": "screened",
+        "split_strategy": "article",
+        "representations": [
+          "char_svm"
+        ]
+      }
+    ],
+    "word_tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_features": 40000,
+      "sublinear_tf": true,
+      "strip_accents": "unicode"
+    },
+    "char_tfidf": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ],
+      "min_df": 3,
+      "max_features": 60000,
+      "sublinear_tf": true,
+      "strip_accents": "unicode"
+    },
+    "linear_svc": {
+      "C": 1.0,
+      "dual": "auto",
+      "tol": 0.0001,
+      "max_iter": 5000
+    },
+    "style_logistic": {
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 3000,
+      "scaler": "StandardScaler fitted on train only"
+    },
+    "dummy": {
+      "strategy": "most_frequent"
+    },
+    "hyperparameter_selection": "fixed before seeing test metrics; no test tuning",
+    "duplicate_policy": "remove a training row if its NFKC/casefold/whitespace-normalized cleaned response also occurs in test",
+    "masking": "literal model and vendor terms; skip redundant retraining if zero response texts change",
+    "parallel_workers": 2
+  },
+  "feature_source": "Only cleaned response text. Prompt, article text, metadata, identity labels, and timestamps are never input features.",
+  "cleaning": {
+    "version": "response-only-v1",
+    "leading_wrapper_changed_rows": 398,
+    "gemini_said_leading_rows": 386,
+    "remaining_leading_gemini_said": 0,
+    "literal_model_vendor_mask_changed_rows": 0,
+    "mask_terms": [
+      "Meta Llama Maverick 4",
+      "Meta Llama 3.3 Turbo",
+      "Claude Sonnet 4.5",
+      "Claude Haiku 4.5",
+      "Gemini 2.5 Flash",
+      "Gemini 2.5 Pro",
+      "3.5 Flash-Lite",
+      "Mistral Medium 3",
+      "Mistral Large 3",
+      "GPT 5.4 Mini",
+      "GPT 5.4",
+      "Grok Fast",
+      "ChatGPT",
+      "OpenAI",
+      "Anthropic",
+      "Google Gemini",
+      "Gemini",
+      "Claude",
+      "Mistral",
+      "Llama",
+      "Grok",
+      "xAI",
+      "Google",
+      "Meta",
+      "Together AI",
+      "OpenRouter"
+    ],
+    "mask_sensitivity_action": "No additional fits: literal model/vendor masking is exactly identical to cleaned inputs.",
+    "normalized_hash_definition": "SHA256(NFKC(clean_response(text)).casefold()); cleaning collapses whitespace",
+    "normalized_duplicate_rows": 0
+  },
+  "identity_folds": [
+    [
+      "race_ethnicity::Indian American",
+      "political::Conservative",
+      "gender_sexuality::LGBTQ+",
+      "religion::Atheist",
+      "political::Democrat",
+      "religion::Hindu",
+      "geography::Urban American",
+      "socioeconomic::Student",
+      "gender_sexuality::Straight Male"
+    ],
+    [
+      "religion::Catholic",
+      "race_ethnicity::Native American",
+      "socioeconomic::Senior Citizen",
+      "religion::Muslim",
+      "geography::Southeastern Black",
+      "race_ethnicity::Arab American",
+      "geography::Midwest working-class White",
+      "political::Independent",
+      "socioeconomic::Disabled"
+    ],
+    [
+      "gender_sexuality::Transgender / Nonbinary",
+      "geography::Rural American",
+      "geography::Southwestern Hispanic",
+      "geography::Coastal Elite",
+      "socioeconomic::Ultra-rich",
+      "political::Liberal",
+      "race_ethnicity::Asian American",
+      "gender_sexuality::Gay Male"
+    ],
+    [
+      "race_ethnicity::Hispanic American",
+      "gender_sexuality::Bisexual",
+      "religion::Jewish",
+      "gender_sexuality::Nonbinary",
+      "socioeconomic::Upper middle class",
+      "religion::Protestant",
+      "race_ethnicity::Black American",
+      "socioeconomic::Middle class"
+    ],
+    [
+      "gender_sexuality::Straight Female",
+      "socioeconomic::Working poor",
+      "religion::Buddhist",
+      "race_ethnicity::White American",
+      "socioeconomic::Veteran",
+      "gender_sexuality::Lesbian",
+      "political::Socialist",
+      "socioeconomic::Lower middle class"
+    ]
+  ],
+  "screened_excluded_cells": [
+    "bbc_brewdog__gender_sexuality__07__significance",
+    "bbc_brewdog__geography__05__community",
+    "bbc_brewdog__political__00__bias_check",
+    "reuters_denmark__gender_sexuality__00__emotion",
+    "reuters_denmark__religion__06__worldview"
+  ],
+  "screened_rows": 6996,
+  "prediction_rows": 112656,
+  "split_count": 21,
+  "feature_fit_jobs": 36,
+  "target_fit_jobs": 72,
+  "purged_training_rows_sum": 0,
+  "pooled_metrics": [
+    {
+      "experiment_id": "full__identity__word_svm__model",
+      "population": "full",
+      "representation": "word_svm",
+      "target": "model",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9876700680272109,
+      "macro_f1": 0.9876675139993286,
+      "balanced_accuracy": 0.987670068027211
+    },
+    {
+      "experiment_id": "full__identity__word_svm__company",
+      "population": "full",
+      "representation": "word_svm",
+      "target": "company",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9994331065759637,
+      "macro_f1": 0.9994568040107504,
+      "balanced_accuracy": 0.9994803476946333
+    },
+    {
+      "experiment_id": "full__identity__char_svm__model",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "model",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9715136054421769,
+      "macro_f1": 0.9714886004187022,
+      "balanced_accuracy": 0.9715136054421768
+    },
+    {
+      "experiment_id": "full__identity__char_svm__company",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "company",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9985827664399093,
+      "macro_f1": 0.9986535372333973,
+      "balanced_accuracy": 0.9987244897959183
+    },
+    {
+      "experiment_id": "full__identity__style_logit__model",
+      "population": "full",
+      "representation": "style_logit",
+      "target": "model",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.7406462585034014,
+      "macro_f1": 0.7402399684179595,
+      "balanced_accuracy": 0.7406462585034014
+    },
+    {
+      "experiment_id": "full__identity__style_logit__company",
+      "population": "full",
+      "representation": "style_logit",
+      "target": "company",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.8252551020408163,
+      "macro_f1": 0.8284021073483768,
+      "balanced_accuracy": 0.8243102796674227
+    },
+    {
+      "experiment_id": "full__identity__dummy__model",
+      "population": "full",
+      "representation": "dummy",
+      "target": "model",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.08333333333333333,
+      "macro_f1": 0.012820512820512822,
+      "balanced_accuracy": 0.08333333333333333
+    },
+    {
+      "experiment_id": "full__identity__dummy__company",
+      "population": "full",
+      "representation": "dummy",
+      "target": "company",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.25,
+      "macro_f1": 0.06666666666666667,
+      "balanced_accuracy": 0.16666666666666666
+    },
+    {
+      "experiment_id": "full__article__char_svm__model",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "model",
+      "split_strategy": "article",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.6437074829931972,
+      "macro_f1": 0.6109116399868723,
+      "balanced_accuracy": 0.6437074829931974
+    },
+    {
+      "experiment_id": "full__article__char_svm__company",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "company",
+      "split_strategy": "article",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9216269841269841,
+      "macro_f1": 0.9164107500411726,
+      "balanced_accuracy": 0.9089663643235072
+    },
+    {
+      "experiment_id": "full__family__char_svm__model",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "model",
+      "split_strategy": "family",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.933390022675737,
+      "macro_f1": 0.9330873246791093,
+      "balanced_accuracy": 0.9333900226757369
+    },
+    {
+      "experiment_id": "full__family__char_svm__company",
+      "population": "full",
+      "representation": "char_svm",
+      "target": "company",
+      "split_strategy": "family",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 7056,
+      "accuracy": 0.9934807256235828,
+      "macro_f1": 0.9936733468887767,
+      "balanced_accuracy": 0.9938114134542705
+    },
+    {
+      "experiment_id": "screened__identity__char_svm__model",
+      "population": "screened",
+      "representation": "char_svm",
+      "target": "model",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 6996,
+      "accuracy": 0.9725557461406518,
+      "macro_f1": 0.9725309203417561,
+      "balanced_accuracy": 0.9725557461406519
+    },
+    {
+      "experiment_id": "screened__identity__char_svm__company",
+      "population": "screened",
+      "representation": "char_svm",
+      "target": "company",
+      "split_strategy": "identity",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 6996,
+      "accuracy": 0.9984276729559748,
+      "macro_f1": 0.9985228083357347,
+      "balanced_accuracy": 0.9986182580522204
+    },
+    {
+      "experiment_id": "screened__article__char_svm__model",
+      "population": "screened",
+      "representation": "char_svm",
+      "target": "model",
+      "split_strategy": "article",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 6996,
+      "accuracy": 0.6363636363636364,
+      "macro_f1": 0.6035639317172753,
+      "balanced_accuracy": 0.6363636363636364
+    },
+    {
+      "experiment_id": "screened__article__char_svm__company",
+      "population": "screened",
+      "representation": "char_svm",
+      "target": "company",
+      "split_strategy": "article",
+      "fold": "pooled",
+      "n_train": null,
+      "n_test": 6996,
+      "accuracy": 0.9240994854202401,
+      "macro_f1": 0.9194352326288876,
+      "balanced_accuracy": 0.9126643796455117
+    }
+  ],
+  "warnings": [],
+  "artifacts": [
+    {
+      "file": "artifacts/model_char_full.joblib",
+      "target": "model",
+      "bytes": 3178598,
+      "sha256": "220acc842c49758d97dfe467fd05b9e41ce1a98726feede004ffd0d8d3901d2f",
+      "training_rows": 7056,
+      "evaluation_role": "Full-data demo only; evaluate using held-out result tables, not this fitted object."
+    },
+    {
+      "file": "artifacts/company_char_full.joblib",
+      "target": "company",
+      "bytes": 1799534,
+      "sha256": "cdf02dc4120c82a975c1426fa9d08a981f132164e50e3267a431ca366eb98e24",
+      "training_rows": 7056,
+      "evaluation_role": "Full-data demo only; evaluate using held-out result tables, not this fitted object."
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.7.2",
+    "joblib": "1.6.0"
+  },
+  "elapsed_seconds": 133.83,
+  "limitations": [
+    "Closed-set attribution of this captured corpus, not reliable provenance of arbitrary text.",
+    "Model, platform, capture process, system prompts, dates and length are confounded.",
+    "One response per model/prompt; no sampling-variance estimate.",
+    "Two article holdouts are specific transfer tests, not a population estimate of news generalization.",
+    "Identity and question-family holdouts share the two source articles.",
+    "Company classes are naturally unbalanced; macro-F1 and balanced accuracy supplement accuracy.",
+    "Scores are decision-function margins, not calibrated probabilities or out-of-distribution confidence.",
+    "Full-data demonstration artifacts have seen every row; their training predictions are not evaluation evidence."
+  ]
+}

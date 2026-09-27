@@ -1,0 +1,1441 @@
+experiment_id,population,representation,target,split_strategy,true_label,predicted_label,count
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,3.5 Flash-Lite,586
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Pro,1
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Meta Llama 3.3 Turbo,1
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,3.5 Flash-Lite,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Claude Haiku 4.5,579
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Claude Sonnet 4.5,9
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Haiku 4.5,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Claude Haiku 4.5,10
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Claude Sonnet 4.5,578
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Claude Sonnet 4.5,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,GPT 5.4,576
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,GPT 5.4 Mini,11
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Grok Fast,1
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,GPT 5.4,4
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,GPT 5.4 Mini,584
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,GPT 5.4 Mini,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Flash,584
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Pro,4
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Flash,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Pro,588
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Gemini 2.5 Pro,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Grok Fast,588
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Grok Fast,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,579
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,9
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Flash,1
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,10
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Meta Llama Maverick 4,577
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Mistral Large 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Meta Llama Maverick 4,Mistral Medium 3,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Gemini 2.5 Pro,1
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Meta Llama 3.3 Turbo,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Mistral Large 3,582
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Large 3,Mistral Medium 3,5
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,3.5 Flash-Lite,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Claude Haiku 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Claude Sonnet 4.5,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,GPT 5.4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,GPT 5.4 Mini,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Gemini 2.5 Flash,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Gemini 2.5 Pro,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Grok Fast,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Meta Llama 3.3 Turbo,1
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Meta Llama Maverick 4,0
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Mistral Large 3,19
+full__identity__word_svm__model,full,word_svm,model,identity,Mistral Medium 3,Mistral Medium 3,568
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,Anthropic,1175
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,Google,0
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,Meta,0
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,Mistral,1
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,OpenAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Anthropic,xAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Google,Anthropic,0
+full__identity__word_svm__company,full,word_svm,company,identity,Google,Google,1763
+full__identity__word_svm__company,full,word_svm,company,identity,Google,Meta,0
+full__identity__word_svm__company,full,word_svm,company,identity,Google,Mistral,1
+full__identity__word_svm__company,full,word_svm,company,identity,Google,OpenAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Google,xAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,Anthropic,0
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,Google,0
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,Meta,1176
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,Mistral,0
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,OpenAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Meta,xAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,Anthropic,0
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,Google,0
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,Meta,2
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,Mistral,1174
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,OpenAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,Mistral,xAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,Anthropic,0
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,Google,0
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,Meta,0
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,Mistral,0
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,OpenAI,1176
+full__identity__word_svm__company,full,word_svm,company,identity,OpenAI,xAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,Anthropic,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,Google,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,Meta,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,Mistral,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,OpenAI,0
+full__identity__word_svm__company,full,word_svm,company,identity,xAI,xAI,588
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,3.5 Flash-Lite,585
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Claude Haiku 4.5,1
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Pro,1
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Meta Llama 3.3 Turbo,1
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,3.5 Flash-Lite,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,3.5 Flash-Lite,1
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Claude Haiku 4.5,560
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Claude Sonnet 4.5,26
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Meta Llama 3.3 Turbo,1
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Haiku 4.5,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Claude Haiku 4.5,30
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Claude Sonnet 4.5,555
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Flash,2
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Meta Llama Maverick 4,1
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Claude Sonnet 4.5,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,GPT 5.4,563
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,GPT 5.4 Mini,23
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Gemini 2.5 Pro,1
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Grok Fast,1
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,GPT 5.4,18
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,GPT 5.4 Mini,570
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,GPT 5.4 Mini,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Flash,586
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Pro,2
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Flash,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Flash,3
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Pro,585
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Gemini 2.5 Pro,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Grok Fast,588
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Grok Fast,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,1
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,565
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,21
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Medium 3,1
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Flash,2
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Pro,2
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,14
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Meta Llama Maverick 4,570
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Mistral Large 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Meta Llama Maverick 4,Mistral Medium 3,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,GPT 5.4 Mini,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Meta Llama 3.3 Turbo,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Mistral Large 3,570
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Large 3,Mistral Medium 3,18
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,3.5 Flash-Lite,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Claude Haiku 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Claude Sonnet 4.5,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,GPT 5.4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,GPT 5.4 Mini,1
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Gemini 2.5 Flash,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Gemini 2.5 Pro,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Grok Fast,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Meta Llama 3.3 Turbo,3
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Meta Llama Maverick 4,0
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Mistral Large 3,26
+full__identity__char_svm__model,full,char_svm,model,identity,Mistral Medium 3,Mistral Medium 3,558
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,Anthropic,1176
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,Google,0
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,Meta,0
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,Mistral,0
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,OpenAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Anthropic,xAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Google,Anthropic,1
+full__identity__char_svm__company,full,char_svm,company,identity,Google,Google,1761
+full__identity__char_svm__company,full,char_svm,company,identity,Google,Meta,0
+full__identity__char_svm__company,full,char_svm,company,identity,Google,Mistral,2
+full__identity__char_svm__company,full,char_svm,company,identity,Google,OpenAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Google,xAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,Anthropic,0
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,Google,2
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,Meta,1174
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,Mistral,0
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,OpenAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Meta,xAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,Anthropic,0
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,Google,1
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,Meta,3
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,Mistral,1172
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,OpenAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,Mistral,xAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,Anthropic,0
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,Google,0
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,Meta,0
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,Mistral,0
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,OpenAI,1175
+full__identity__char_svm__company,full,char_svm,company,identity,OpenAI,xAI,1
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,Anthropic,0
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,Google,0
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,Meta,0
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,Mistral,0
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,OpenAI,0
+full__identity__char_svm__company,full,char_svm,company,identity,xAI,xAI,588
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,3.5 Flash-Lite,473
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Claude Haiku 4.5,19
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Claude Sonnet 4.5,24
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,GPT 5.4,1
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,GPT 5.4 Mini,8
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Gemini 2.5 Flash,26
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Gemini 2.5 Pro,1
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Grok Fast,6
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Meta Llama 3.3 Turbo,12
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Meta Llama Maverick 4,1
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Mistral Large 3,1
+full__identity__style_logit__model,full,style_logit,model,identity,3.5 Flash-Lite,Mistral Medium 3,16
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,3.5 Flash-Lite,14
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Claude Haiku 4.5,417
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Claude Sonnet 4.5,120
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,GPT 5.4,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,GPT 5.4 Mini,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Gemini 2.5 Flash,6
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Gemini 2.5 Pro,1
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Grok Fast,2
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Meta Llama 3.3 Turbo,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Meta Llama Maverick 4,1
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Mistral Large 3,14
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Haiku 4.5,Mistral Medium 3,13
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,3.5 Flash-Lite,21
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Claude Haiku 4.5,107
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Claude Sonnet 4.5,376
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,GPT 5.4,6
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,GPT 5.4 Mini,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Gemini 2.5 Flash,36
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Gemini 2.5 Pro,3
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Grok Fast,5
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Meta Llama Maverick 4,0
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Mistral Large 3,20
+full__identity__style_logit__model,full,style_logit,model,identity,Claude Sonnet 4.5,Mistral Medium 3,14
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,3.5 Flash-Lite,3
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Claude Haiku 4.5,2
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Claude Sonnet 4.5,3
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,GPT 5.4,476
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,GPT 5.4 Mini,15
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Gemini 2.5 Flash,15
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Gemini 2.5 Pro,13
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Grok Fast,42
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Meta Llama Maverick 4,1
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Mistral Large 3,10
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4,Mistral Medium 3,8
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,3.5 Flash-Lite,9
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Claude Haiku 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,GPT 5.4,37
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,GPT 5.4 Mini,499
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Gemini 2.5 Flash,3
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Gemini 2.5 Pro,17
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Grok Fast,3
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Meta Llama 3.3 Turbo,6
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Meta Llama Maverick 4,3
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Mistral Large 3,0
+full__identity__style_logit__model,full,style_logit,model,identity,GPT 5.4 Mini,Mistral Medium 3,11
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,3.5 Flash-Lite,25
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Claude Haiku 4.5,9
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Claude Sonnet 4.5,20
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,GPT 5.4,13
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,GPT 5.4 Mini,5
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Gemini 2.5 Flash,407
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Gemini 2.5 Pro,41
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Grok Fast,6
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,1
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Meta Llama Maverick 4,23
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Mistral Large 3,7
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Flash,Mistral Medium 3,31
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,3.5 Flash-Lite,11
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Claude Haiku 4.5,1
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,GPT 5.4,2
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,GPT 5.4 Mini,13
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Gemini 2.5 Flash,38
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Gemini 2.5 Pro,390
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Grok Fast,12
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,13
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Meta Llama Maverick 4,72
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Mistral Large 3,2
+full__identity__style_logit__model,full,style_logit,model,identity,Gemini 2.5 Pro,Mistral Medium 3,34
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,3.5 Flash-Lite,8
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Claude Haiku 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Claude Sonnet 4.5,3
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,GPT 5.4,49
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,GPT 5.4 Mini,7
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Gemini 2.5 Flash,8
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Gemini 2.5 Pro,6
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Grok Fast,480
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Meta Llama 3.3 Turbo,0
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Meta Llama Maverick 4,0
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Mistral Large 3,3
+full__identity__style_logit__model,full,style_logit,model,identity,Grok Fast,Mistral Medium 3,24
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,3.5 Flash-Lite,4
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Claude Haiku 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,GPT 5.4 Mini,16
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,2
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,8
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Grok Fast,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,499
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,59
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama 3.3 Turbo,Mistral Medium 3,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,3.5 Flash-Lite,4
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Claude Haiku 4.5,0
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Claude Sonnet 4.5,1
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,GPT 5.4,1
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,GPT 5.4 Mini,8
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Gemini 2.5 Flash,31
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Gemini 2.5 Pro,59
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Grok Fast,1
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,65
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Meta Llama Maverick 4,408
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Mistral Large 3,3
+full__identity__style_logit__model,full,style_logit,model,identity,Meta Llama Maverick 4,Mistral Medium 3,7
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,3.5 Flash-Lite,7
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Claude Haiku 4.5,6
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Claude Sonnet 4.5,17
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,GPT 5.4,7
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,GPT 5.4 Mini,3
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Gemini 2.5 Flash,9
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Gemini 2.5 Pro,12
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Grok Fast,11
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Meta Llama 3.3 Turbo,0
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Meta Llama Maverick 4,1
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Mistral Large 3,447
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Large 3,Mistral Medium 3,68
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,3.5 Flash-Lite,16
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Claude Haiku 4.5,16
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Claude Sonnet 4.5,11
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,GPT 5.4,10
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,GPT 5.4 Mini,26
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Gemini 2.5 Flash,29
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Gemini 2.5 Pro,30
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Grok Fast,19
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Meta Llama 3.3 Turbo,12
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Meta Llama Maverick 4,6
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Mistral Large 3,59
+full__identity__style_logit__model,full,style_logit,model,identity,Mistral Medium 3,Mistral Medium 3,354
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,Anthropic,1014
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,Google,86
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,Meta,0
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,Mistral,68
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,OpenAI,1
+full__identity__style_logit__company,full,style_logit,company,identity,Anthropic,xAI,7
+full__identity__style_logit__company,full,style_logit,company,identity,Google,Anthropic,89
+full__identity__style_logit__company,full,style_logit,company,identity,Google,Google,1391
+full__identity__style_logit__company,full,style_logit,company,identity,Google,Meta,111
+full__identity__style_logit__company,full,style_logit,company,identity,Google,Mistral,87
+full__identity__style_logit__company,full,style_logit,company,identity,Google,OpenAI,61
+full__identity__style_logit__company,full,style_logit,company,identity,Google,xAI,25
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,Anthropic,3
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,Google,104
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,Meta,1030
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,Mistral,13
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,OpenAI,25
+full__identity__style_logit__company,full,style_logit,company,identity,Meta,xAI,1
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,Anthropic,43
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,Google,148
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,Meta,22
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,Mistral,904
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,OpenAI,40
+full__identity__style_logit__company,full,style_logit,company,identity,Mistral,xAI,19
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,Anthropic,6
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,Google,71
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,Meta,17
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,Mistral,26
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,OpenAI,1027
+full__identity__style_logit__company,full,style_logit,company,identity,OpenAI,xAI,29
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,Anthropic,6
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,Google,30
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,Meta,0
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,Mistral,37
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,OpenAI,58
+full__identity__style_logit__company,full,style_logit,company,identity,xAI,xAI,457
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,3.5 Flash-Lite,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Haiku 4.5,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Claude Sonnet 4.5,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,GPT 5.4 Mini,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Flash,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Gemini 2.5 Pro,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Grok Fast,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama 3.3 Turbo,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Meta Llama Maverick 4,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Large 3,Mistral Medium 3,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,3.5 Flash-Lite,588
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Claude Haiku 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Claude Sonnet 4.5,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,GPT 5.4,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,GPT 5.4 Mini,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Gemini 2.5 Flash,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Gemini 2.5 Pro,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Grok Fast,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Meta Llama 3.3 Turbo,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Meta Llama Maverick 4,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Mistral Large 3,0
+full__identity__dummy__model,full,dummy,model,identity,Mistral Medium 3,Mistral Medium 3,0
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,Google,1176
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,Anthropic,xAI,0
+full__identity__dummy__company,full,dummy,company,identity,Google,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,Google,Google,1764
+full__identity__dummy__company,full,dummy,company,identity,Google,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,Google,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,Google,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,Google,xAI,0
+full__identity__dummy__company,full,dummy,company,identity,Meta,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,Meta,Google,1176
+full__identity__dummy__company,full,dummy,company,identity,Meta,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,Meta,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,Meta,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,Meta,xAI,0
+full__identity__dummy__company,full,dummy,company,identity,Mistral,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,Mistral,Google,1176
+full__identity__dummy__company,full,dummy,company,identity,Mistral,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,Mistral,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,Mistral,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,Mistral,xAI,0
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,Google,1176
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,OpenAI,xAI,0
+full__identity__dummy__company,full,dummy,company,identity,xAI,Anthropic,0
+full__identity__dummy__company,full,dummy,company,identity,xAI,Google,588
+full__identity__dummy__company,full,dummy,company,identity,xAI,Meta,0
+full__identity__dummy__company,full,dummy,company,identity,xAI,Mistral,0
+full__identity__dummy__company,full,dummy,company,identity,xAI,OpenAI,0
+full__identity__dummy__company,full,dummy,company,identity,xAI,xAI,0
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,3.5 Flash-Lite,422
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Claude Haiku 4.5,29
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Claude Sonnet 4.5,28
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,GPT 5.4 Mini,22
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Gemini 2.5 Flash,8
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Gemini 2.5 Pro,14
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Grok Fast,24
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Meta Llama 3.3 Turbo,12
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Mistral Large 3,29
+full__article__char_svm__model,full,char_svm,model,article,3.5 Flash-Lite,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,3.5 Flash-Lite,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Claude Haiku 4.5,473
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Claude Sonnet 4.5,99
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,GPT 5.4 Mini,1
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Gemini 2.5 Flash,2
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Gemini 2.5 Pro,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Grok Fast,1
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Meta Llama 3.3 Turbo,10
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Mistral Large 3,2
+full__article__char_svm__model,full,char_svm,model,article,Claude Haiku 4.5,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,3.5 Flash-Lite,1
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Claude Haiku 4.5,297
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Claude Sonnet 4.5,245
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,GPT 5.4 Mini,12
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Gemini 2.5 Flash,1
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Grok Fast,3
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,18
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Mistral Large 3,11
+full__article__char_svm__model,full,char_svm,model,article,Claude Sonnet 4.5,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,3.5 Flash-Lite,1
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Claude Haiku 4.5,7
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Claude Sonnet 4.5,5
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,GPT 5.4,104
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,GPT 5.4 Mini,450
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Gemini 2.5 Flash,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Gemini 2.5 Pro,3
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Grok Fast,5
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Mistral Large 3,13
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,3.5 Flash-Lite,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Claude Haiku 4.5,1
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,GPT 5.4,11
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,GPT 5.4 Mini,570
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Gemini 2.5 Flash,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Gemini 2.5 Pro,1
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Grok Fast,1
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Meta Llama 3.3 Turbo,3
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Mistral Large 3,1
+full__article__char_svm__model,full,char_svm,model,article,GPT 5.4 Mini,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,3.5 Flash-Lite,4
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Claude Haiku 4.5,68
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Claude Sonnet 4.5,15
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,GPT 5.4 Mini,2
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Gemini 2.5 Flash,442
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Gemini 2.5 Pro,18
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Grok Fast,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,16
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Mistral Large 3,23
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Flash,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,3.5 Flash-Lite,8
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Claude Haiku 4.5,35
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Claude Sonnet 4.5,3
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,GPT 5.4 Mini,41
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Gemini 2.5 Flash,20
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Gemini 2.5 Pro,442
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Grok Fast,1
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,29
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Mistral Large 3,9
+full__article__char_svm__model,full,char_svm,model,article,Gemini 2.5 Pro,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,3.5 Flash-Lite,3
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Claude Haiku 4.5,18
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Claude Sonnet 4.5,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,GPT 5.4 Mini,70
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Gemini 2.5 Flash,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Gemini 2.5 Pro,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Grok Fast,490
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Meta Llama 3.3 Turbo,1
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Mistral Large 3,6
+full__article__char_svm__model,full,char_svm,model,article,Grok Fast,Mistral Medium 3,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Claude Haiku 4.5,8
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,GPT 5.4 Mini,10
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,1
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Grok Fast,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,565
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,2
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama 3.3 Turbo,Mistral Medium 3,2
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,3.5 Flash-Lite,7
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Claude Haiku 4.5,56
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Claude Sonnet 4.5,10
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,GPT 5.4,1
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,GPT 5.4 Mini,49
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Gemini 2.5 Flash,13
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Gemini 2.5 Pro,13
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Grok Fast,3
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,360
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Meta Llama Maverick 4,61
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Mistral Large 3,12
+full__article__char_svm__model,full,char_svm,model,article,Meta Llama Maverick 4,Mistral Medium 3,3
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,3.5 Flash-Lite,2
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Claude Haiku 4.5,4
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Claude Sonnet 4.5,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,GPT 5.4,1
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,GPT 5.4 Mini,4
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Gemini 2.5 Flash,4
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Gemini 2.5 Pro,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Grok Fast,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Meta Llama 3.3 Turbo,1
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Mistral Large 3,570
+full__article__char_svm__model,full,char_svm,model,article,Mistral Large 3,Mistral Medium 3,2
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,3.5 Flash-Lite,3
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Claude Haiku 4.5,48
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Claude Sonnet 4.5,3
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,GPT 5.4,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,GPT 5.4 Mini,35
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Gemini 2.5 Flash,8
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Gemini 2.5 Pro,1
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Grok Fast,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Meta Llama 3.3 Turbo,34
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Meta Llama Maverick 4,0
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Mistral Large 3,298
+full__article__char_svm__model,full,char_svm,model,article,Mistral Medium 3,Mistral Medium 3,158
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,Anthropic,1167
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,Google,7
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,Meta,0
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,Mistral,0
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,OpenAI,1
+full__article__char_svm__company,full,char_svm,company,article,Anthropic,xAI,1
+full__article__char_svm__company,full,char_svm,company,article,Google,Anthropic,73
+full__article__char_svm__company,full,char_svm,company,article,Google,Google,1618
+full__article__char_svm__company,full,char_svm,company,article,Google,Meta,1
+full__article__char_svm__company,full,char_svm,company,article,Google,Mistral,15
+full__article__char_svm__company,full,char_svm,company,article,Google,OpenAI,47
+full__article__char_svm__company,full,char_svm,company,article,Google,xAI,10
+full__article__char_svm__company,full,char_svm,company,article,Meta,Anthropic,69
+full__article__char_svm__company,full,char_svm,company,article,Meta,Google,82
+full__article__char_svm__company,full,char_svm,company,article,Meta,Meta,996
+full__article__char_svm__company,full,char_svm,company,article,Meta,Mistral,12
+full__article__char_svm__company,full,char_svm,company,article,Meta,OpenAI,15
+full__article__char_svm__company,full,char_svm,company,article,Meta,xAI,2
+full__article__char_svm__company,full,char_svm,company,article,Mistral,Anthropic,28
+full__article__char_svm__company,full,char_svm,company,article,Mistral,Google,34
+full__article__char_svm__company,full,char_svm,company,article,Mistral,Meta,0
+full__article__char_svm__company,full,char_svm,company,article,Mistral,Mistral,1102
+full__article__char_svm__company,full,char_svm,company,article,Mistral,OpenAI,12
+full__article__char_svm__company,full,char_svm,company,article,Mistral,xAI,0
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,Anthropic,2
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,Google,4
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,Meta,0
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,Mistral,0
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,OpenAI,1170
+full__article__char_svm__company,full,char_svm,company,article,OpenAI,xAI,0
+full__article__char_svm__company,full,char_svm,company,article,xAI,Anthropic,7
+full__article__char_svm__company,full,char_svm,company,article,xAI,Google,44
+full__article__char_svm__company,full,char_svm,company,article,xAI,Meta,0
+full__article__char_svm__company,full,char_svm,company,article,xAI,Mistral,0
+full__article__char_svm__company,full,char_svm,company,article,xAI,OpenAI,87
+full__article__char_svm__company,full,char_svm,company,article,xAI,xAI,450
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,3.5 Flash-Lite,586
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Claude Haiku 4.5,1
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Gemini 2.5 Flash,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Grok Fast,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Meta Llama 3.3 Turbo,1
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,3.5 Flash-Lite,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,3.5 Flash-Lite,2
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Claude Haiku 4.5,564
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Claude Sonnet 4.5,21
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Gemini 2.5 Flash,1
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Grok Fast,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Haiku 4.5,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,3.5 Flash-Lite,4
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Claude Haiku 4.5,74
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Claude Sonnet 4.5,502
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Gemini 2.5 Flash,2
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Grok Fast,5
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Meta Llama Maverick 4,1
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Claude Sonnet 4.5,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Claude Haiku 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,GPT 5.4,509
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,GPT 5.4 Mini,64
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Gemini 2.5 Flash,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Gemini 2.5 Pro,1
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Grok Fast,12
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Mistral Large 3,2
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Claude Haiku 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,GPT 5.4,50
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,GPT 5.4 Mini,532
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Gemini 2.5 Flash,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Grok Fast,5
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Mistral Large 3,1
+full__family__char_svm__model,full,char_svm,model,family,GPT 5.4 Mini,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,3.5 Flash-Lite,4
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Claude Haiku 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Gemini 2.5 Flash,579
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Gemini 2.5 Pro,4
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Grok Fast,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Meta Llama Maverick 4,1
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Flash,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,3.5 Flash-Lite,3
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Claude Haiku 4.5,1
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Gemini 2.5 Flash,4
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Gemini 2.5 Pro,580
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Grok Fast,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Gemini 2.5 Pro,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Claude Haiku 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Gemini 2.5 Flash,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Grok Fast,588
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Meta Llama 3.3 Turbo,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Grok Fast,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Claude Haiku 4.5,2
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,GPT 5.4 Mini,2
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,4
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Grok Fast,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,542
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,37
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama 3.3 Turbo,Mistral Medium 3,1
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Claude Haiku 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Claude Sonnet 4.5,2
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,GPT 5.4,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Gemini 2.5 Flash,6
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Gemini 2.5 Pro,1
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Grok Fast,1
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,39
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Meta Llama Maverick 4,539
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Mistral Large 3,0
+full__family__char_svm__model,full,char_svm,model,family,Meta Llama Maverick 4,Mistral Medium 3,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Claude Haiku 4.5,2
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Claude Sonnet 4.5,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,GPT 5.4,1
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,GPT 5.4 Mini,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Gemini 2.5 Flash,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Gemini 2.5 Pro,1
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Grok Fast,3
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Meta Llama 3.3 Turbo,2
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Mistral Large 3,529
+full__family__char_svm__model,full,char_svm,model,family,Mistral Large 3,Mistral Medium 3,50
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,3.5 Flash-Lite,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Claude Haiku 4.5,2
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Claude Sonnet 4.5,1
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,GPT 5.4,1
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,GPT 5.4 Mini,3
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Gemini 2.5 Flash,1
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Gemini 2.5 Pro,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Grok Fast,2
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Meta Llama 3.3 Turbo,2
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Meta Llama Maverick 4,0
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Mistral Large 3,40
+full__family__char_svm__model,full,char_svm,model,family,Mistral Medium 3,Mistral Medium 3,536
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,Anthropic,1163
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,Google,11
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,Meta,2
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,Mistral,0
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,OpenAI,0
+full__family__char_svm__company,full,char_svm,company,family,Anthropic,xAI,0
+full__family__char_svm__company,full,char_svm,company,family,Google,Anthropic,2
+full__family__char_svm__company,full,char_svm,company,family,Google,Google,1757
+full__family__char_svm__company,full,char_svm,company,family,Google,Meta,0
+full__family__char_svm__company,full,char_svm,company,family,Google,Mistral,4
+full__family__char_svm__company,full,char_svm,company,family,Google,OpenAI,1
+full__family__char_svm__company,full,char_svm,company,family,Google,xAI,0
+full__family__char_svm__company,full,char_svm,company,family,Meta,Anthropic,0
+full__family__char_svm__company,full,char_svm,company,family,Meta,Google,4
+full__family__char_svm__company,full,char_svm,company,family,Meta,Meta,1172
+full__family__char_svm__company,full,char_svm,company,family,Meta,Mistral,0
+full__family__char_svm__company,full,char_svm,company,family,Meta,OpenAI,0
+full__family__char_svm__company,full,char_svm,company,family,Meta,xAI,0
+full__family__char_svm__company,full,char_svm,company,family,Mistral,Anthropic,0
+full__family__char_svm__company,full,char_svm,company,family,Mistral,Google,8
+full__family__char_svm__company,full,char_svm,company,family,Mistral,Meta,3
+full__family__char_svm__company,full,char_svm,company,family,Mistral,Mistral,1163
+full__family__char_svm__company,full,char_svm,company,family,Mistral,OpenAI,1
+full__family__char_svm__company,full,char_svm,company,family,Mistral,xAI,1
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,Anthropic,0
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,Google,2
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,Meta,0
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,Mistral,0
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,OpenAI,1167
+full__family__char_svm__company,full,char_svm,company,family,OpenAI,xAI,7
+full__family__char_svm__company,full,char_svm,company,family,xAI,Anthropic,0
+full__family__char_svm__company,full,char_svm,company,family,xAI,Google,0
+full__family__char_svm__company,full,char_svm,company,family,xAI,Meta,0
+full__family__char_svm__company,full,char_svm,company,family,xAI,Mistral,0
+full__family__char_svm__company,full,char_svm,company,family,xAI,OpenAI,0
+full__family__char_svm__company,full,char_svm,company,family,xAI,xAI,588
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,3.5 Flash-Lite,581
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Claude Haiku 4.5,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Gemini 2.5 Pro,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,3.5 Flash-Lite,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,3.5 Flash-Lite,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Claude Haiku 4.5,556
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Claude Sonnet 4.5,25
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Meta Llama 3.3 Turbo,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Haiku 4.5,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Claude Haiku 4.5,26
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Claude Sonnet 4.5,554
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Flash,2
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Meta Llama Maverick 4,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Claude Sonnet 4.5,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,GPT 5.4,557
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,GPT 5.4 Mini,24
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Gemini 2.5 Pro,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Grok Fast,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,GPT 5.4,18
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,GPT 5.4 Mini,565
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,GPT 5.4 Mini,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Flash,581
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Gemini 2.5 Pro,2
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Flash,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Flash,2
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Gemini 2.5 Pro,581
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Gemini 2.5 Pro,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Grok Fast,583
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Grok Fast,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,561
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,20
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama 3.3 Turbo,Mistral Medium 3,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Flash,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Gemini 2.5 Pro,2
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,15
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Meta Llama Maverick 4,565
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Mistral Large 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Meta Llama Maverick 4,Mistral Medium 3,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,GPT 5.4 Mini,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Meta Llama 3.3 Turbo,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Mistral Large 3,566
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Large 3,Mistral Medium 3,17
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,3.5 Flash-Lite,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Claude Haiku 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Claude Sonnet 4.5,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,GPT 5.4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,GPT 5.4 Mini,1
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Gemini 2.5 Flash,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Gemini 2.5 Pro,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Grok Fast,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Meta Llama 3.3 Turbo,3
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Meta Llama Maverick 4,0
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Mistral Large 3,25
+screened__identity__char_svm__model,screened,char_svm,model,identity,Mistral Medium 3,Mistral Medium 3,554
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,Anthropic,1166
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,Google,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,Meta,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,Mistral,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,OpenAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Anthropic,xAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,Anthropic,1
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,Google,1745
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,Meta,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,Mistral,2
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,OpenAI,1
+screened__identity__char_svm__company,screened,char_svm,company,identity,Google,xAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,Anthropic,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,Google,2
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,Meta,1164
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,Mistral,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,OpenAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Meta,xAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,Anthropic,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,Google,1
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,Meta,3
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,Mistral,1162
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,OpenAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,Mistral,xAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,Anthropic,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,Google,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,Meta,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,Mistral,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,OpenAI,1165
+screened__identity__char_svm__company,screened,char_svm,company,identity,OpenAI,xAI,1
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,Anthropic,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,Google,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,Meta,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,Mistral,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,OpenAI,0
+screened__identity__char_svm__company,screened,char_svm,company,identity,xAI,xAI,583
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,3.5 Flash-Lite,393
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Claude Haiku 4.5,54
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Claude Sonnet 4.5,27
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,GPT 5.4 Mini,22
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Gemini 2.5 Flash,8
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Gemini 2.5 Pro,15
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Grok Fast,24
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Meta Llama 3.3 Turbo,11
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Mistral Large 3,29
+screened__article__char_svm__model,screened,char_svm,model,article,3.5 Flash-Lite,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Claude Haiku 4.5,466
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Claude Sonnet 4.5,98
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,GPT 5.4 Mini,1
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Gemini 2.5 Flash,2
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Gemini 2.5 Pro,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Grok Fast,1
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Meta Llama 3.3 Turbo,12
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Mistral Large 3,3
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Haiku 4.5,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Claude Haiku 4.5,298
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Claude Sonnet 4.5,243
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,GPT 5.4 Mini,13
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Gemini 2.5 Flash,1
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Gemini 2.5 Pro,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Grok Fast,3
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Meta Llama 3.3 Turbo,18
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Mistral Large 3,7
+screened__article__char_svm__model,screened,char_svm,model,article,Claude Sonnet 4.5,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Claude Haiku 4.5,7
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Claude Sonnet 4.5,5
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,GPT 5.4,100
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,GPT 5.4 Mini,446
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Gemini 2.5 Flash,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Gemini 2.5 Pro,3
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Grok Fast,6
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Meta Llama 3.3 Turbo,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Mistral Large 3,16
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Claude Haiku 4.5,1
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Claude Sonnet 4.5,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,GPT 5.4,11
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,GPT 5.4 Mini,564
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Gemini 2.5 Flash,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Gemini 2.5 Pro,2
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Grok Fast,1
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Meta Llama 3.3 Turbo,2
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Mistral Large 3,2
+screened__article__char_svm__model,screened,char_svm,model,article,GPT 5.4 Mini,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,3.5 Flash-Lite,1
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Claude Haiku 4.5,76
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Claude Sonnet 4.5,15
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,GPT 5.4 Mini,2
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Gemini 2.5 Flash,432
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Gemini 2.5 Pro,17
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Grok Fast,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Meta Llama 3.3 Turbo,18
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Mistral Large 3,22
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Flash,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,3.5 Flash-Lite,4
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Claude Haiku 4.5,35
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Claude Sonnet 4.5,2
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,GPT 5.4 Mini,38
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Gemini 2.5 Flash,18
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Gemini 2.5 Pro,446
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Grok Fast,1
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Meta Llama 3.3 Turbo,30
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Mistral Large 3,9
+screened__article__char_svm__model,screened,char_svm,model,article,Gemini 2.5 Pro,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,3.5 Flash-Lite,2
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Claude Haiku 4.5,21
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Claude Sonnet 4.5,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,GPT 5.4 Mini,71
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Gemini 2.5 Flash,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Gemini 2.5 Pro,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Grok Fast,481
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Meta Llama 3.3 Turbo,1
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Mistral Large 3,7
+screened__article__char_svm__model,screened,char_svm,model,article,Grok Fast,Mistral Medium 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Claude Haiku 4.5,9
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Claude Sonnet 4.5,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,GPT 5.4 Mini,10
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Gemini 2.5 Flash,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Gemini 2.5 Pro,1
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Grok Fast,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Meta Llama 3.3 Turbo,560
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Meta Llama Maverick 4,1
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Mistral Large 3,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama 3.3 Turbo,Mistral Medium 3,2
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,3.5 Flash-Lite,4
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Claude Haiku 4.5,63
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Claude Sonnet 4.5,10
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,GPT 5.4 Mini,45
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Gemini 2.5 Flash,14
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Gemini 2.5 Pro,13
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Grok Fast,2
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Meta Llama 3.3 Turbo,360
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Meta Llama Maverick 4,59
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Mistral Large 3,11
+screened__article__char_svm__model,screened,char_svm,model,article,Meta Llama Maverick 4,Mistral Medium 3,2
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,3.5 Flash-Lite,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Claude Haiku 4.5,7
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Claude Sonnet 4.5,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,GPT 5.4,1
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,GPT 5.4 Mini,4
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Gemini 2.5 Flash,4
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Gemini 2.5 Pro,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Grok Fast,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Meta Llama 3.3 Turbo,2
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Mistral Large 3,563
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Large 3,Mistral Medium 3,2
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,3.5 Flash-Lite,1
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Claude Haiku 4.5,49
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Claude Sonnet 4.5,4
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,GPT 5.4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,GPT 5.4 Mini,34
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Gemini 2.5 Flash,8
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Gemini 2.5 Pro,1
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Grok Fast,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Meta Llama 3.3 Turbo,36
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Meta Llama Maverick 4,0
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Mistral Large 3,305
+screened__article__char_svm__model,screened,char_svm,model,article,Mistral Medium 3,Mistral Medium 3,145
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,Anthropic,1158
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,Google,6
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,Meta,0
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,Mistral,0
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,OpenAI,1
+screened__article__char_svm__company,screened,char_svm,company,article,Anthropic,xAI,1
+screened__article__char_svm__company,screened,char_svm,company,article,Google,Anthropic,73
+screened__article__char_svm__company,screened,char_svm,company,article,Google,Google,1602
+screened__article__char_svm__company,screened,char_svm,company,article,Google,Meta,1
+screened__article__char_svm__company,screened,char_svm,company,article,Google,Mistral,14
+screened__article__char_svm__company,screened,char_svm,company,article,Google,OpenAI,49
+screened__article__char_svm__company,screened,char_svm,company,article,Google,xAI,10
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,Anthropic,67
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,Google,81
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,Meta,990
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,Mistral,12
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,OpenAI,14
+screened__article__char_svm__company,screened,char_svm,company,article,Meta,xAI,2
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,Anthropic,25
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,Google,27
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,Meta,0
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,Mistral,1101
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,OpenAI,13
+screened__article__char_svm__company,screened,char_svm,company,article,Mistral,xAI,0
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,Anthropic,2
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,Google,4
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,Meta,0
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,Mistral,0
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,OpenAI,1160
+screened__article__char_svm__company,screened,char_svm,company,article,OpenAI,xAI,0
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,Anthropic,7
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,Google,38
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,Meta,0
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,Mistral,0
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,OpenAI,84
+screened__article__char_svm__company,screened,char_svm,company,article,xAI,xAI,454
