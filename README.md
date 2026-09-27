@@ -1,2 +1,3 @@
-# gpf-response-attribution
-Response-only classification of 12 recorded language-model streams and six developer companies, using the GPF Matched-News dataset with grouped and article-holdout evaluation.
+# GPF Response Attribution
+
+Response-only classification of twelve recorded model streams and six developer companies. The evaluated research package is being published.
